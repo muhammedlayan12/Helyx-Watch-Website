@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    background-image: url("https://i.pinimg.com/originals/fd/2c/ab/fd2caba6ac3f9516739c712852dd82ca.jpg");
+    background-repeat: no-repeat;
+    background-size: 220vmin 100vmin;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 5%;
+    margin-top: 7px;
+}
+
+.name img {
+    width: 180px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #ff0000; /* blue color on hover */
+}
+
+.icon {
+    display: flex;
+    gap: 06vmin;
+    color: #ffffff;
+}
+
+.icon i {
+    font-size: 24px;
+    position: relative;
+    cursor: pointer; 
+    transition: color 0.3s;
+    gap: 10vmin;
+}
+
+.icon sup {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff0004; /* Reddish color */
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.icon i:hover {
+    color: #ff0000;
+}
+
+.hero {
+    color: white;
+    margin-top: 8vmin;
+    margin-left: 15vmin;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
+}
+
+.hero-h1 {
+    font-size: 6em;
+    margin: 0; /* Reset margin */
+}
+
+.hero-p {
+    margin-top: 2vmin;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5em 0 0; /* Add some margin at the top */
+}
+
+.hero-btn {
+    margin-top: 2vmin;
+    padding: 15px 30px;
+    font-size: 1em;
+    width: 20vmin;
+    color: white;
+    background-color: rgb(0, 30, 255); /* Example color, adjust as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: rgb(75, 70, 215); /* Example hover color, adjust as needed */
+}
+
+
+.services{
+    margin-top: 21vmin;
+}
+
+.services h1{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.serh1span{
+    color: #000dff
+}
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service1, .service2, .service3{
+    text-align: center;
+    font-size: 1.5em;
+    height: 60vmin;
+    width: 50vmin;
+    border: 1px solid rgb(55, 0, 255);
+}
+
+.service1 i,.service2 i,.service3 i{
+    font-size: 4em;
+    color: rgb(13, 0, 255);
+    margin-top: 7vmin;
+}
+
+.service1 .btn,.service2 .btn,.service3 .btn{
+    height: 6vmin;
+    width: 18vmin;
+    margin-top: 1vmin;
+    font-size: 2vmin;
+    background-color: #000dff;
+    color: white;
+    border: 1px solid rgb(0, 4, 255);
+}
+
+
+.service1 .btn:hover,.service2 .btn:hover,.service3 .btn:hover{
+color: rgb(255, 255, 255);
+background-color: #464ed9;
+}
+
+.showcase {
+    margin-top: 21vmin;
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+}
+
+.showh1{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.showcase p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    margin-bottom: 2vmin;
+}
+.showh1span{
+    color: #000dff
+}
+.content {
+    flex: 1; /* Allow content to take up remaining space */
+    padding-right: 20px; /* Space between content and image */
+}
+
+.showh1, p {
+    margin: 0; /* Remove default margin */
+    margin-bottom: 10px; /* Space between h1 and p */
+}
+
+.img {
+    width: 80vmin; /* Adjust the value to your desired size */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    object-fit: cover; /* Make sure the image covers the entire container */
+    border-radius: 5%;
+    margin-right: 6vmin;
+}
+
+.img img {
+    width: 100%; /* Make image take up full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5%;
+}
